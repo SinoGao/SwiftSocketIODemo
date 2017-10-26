@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BD51AEC55F7257D7504144 /* Pods_socketio_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5411BA381D664D42CFEA016B /* Pods_socketio_sdk.framework */; };
+		AC46C3521F62844B0075481D /* BDCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46C3511F62844B0075481D /* BDCollectionViewController.swift */; };
+		ACC39CCE1F5E8A7D00BF222F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC39CCD1F5E8A7D00BF222F /* AppDelegate.swift */; };
+		ACC39CD01F5E8A7D00BF222F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC39CCF1F5E8A7D00BF222F /* ViewController.swift */; };
+		ACC39CD31F5E8A7D00BF222F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC39CD11F5E8A7D00BF222F /* Main.storyboard */; };
+		ACC39CD51F5E8A7D00BF222F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC39CD41F5E8A7D00BF222F /* Assets.xcassets */; };
+		ACC39CD81F5E8A7D00BF222F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC39CD61F5E8A7D00BF222F /* LaunchScreen.storyboard */; };
+		ACC39CE01F5E904A00BF222F /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC39CDF1F5E904A00BF222F /* SocketIO.framework */; };
+		ACC39CE31F5E922100BF222F /* SocketIOTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC39CE21F5E922100BF222F /* SocketIOTest.swift */; };
+		ACC39CE51F5E9BC800BF222F /* SocketIOTest-Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC39CE41F5E9BC800BF222F /* SocketIOTest-Event.swift */; };
+		ACE82FC21F5FD786001E0A80 /* SocketIOHandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE82FC11F5FD786001E0A80 /* SocketIOHandles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		440A0FB3A03E8AD58EA0CAD5 /* Pods-socketio-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socketio-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-socketio-sdk/Pods-socketio-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		5411BA381D664D42CFEA016B /* Pods_socketio_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socketio_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC46C3511F62844B0075481D /* BDCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BDCollectionViewController.swift; path = common/BDCollectionViewController.swift; sourceTree = "<group>"; };
+		ACC39CCA1F5E8A7D00BF222F /* socketio-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socketio-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC39CCD1F5E8A7D00BF222F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC39CCF1F5E8A7D00BF222F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACC39CD21F5E8A7D00BF222F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC39CD41F5E8A7D00BF222F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC39CD71F5E8A7D00BF222F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC39CD91F5E8A7D00BF222F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC39CDF1F5E904A00BF222F /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/socketio-sdk-gyzgrznvyhqggjcciusagvoqaqfg/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework"; sourceTree = "<group>"; };
+		ACC39CE21F5E922100BF222F /* SocketIOTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOTest.swift; path = common/SocketIOTest.swift; sourceTree = "<group>"; };
+		ACC39CE41F5E9BC800BF222F /* SocketIOTest-Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SocketIOTest-Event.swift"; path = "common/SocketIOTest-Event.swift"; sourceTree = "<group>"; };
+		ACE82FC11F5FD786001E0A80 /* SocketIOHandles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOHandles.swift; path = common/SocketIOHandles.swift; sourceTree = "<group>"; };
+		CE4EFD45C89AC6FDBC4DF75B /* Pods-socketio-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socketio-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socketio-sdk/Pods-socketio-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC39CC71F5E8A7D00BF222F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC39CE01F5E904A00BF222F /* SocketIO.framework in Frameworks */,
+				20BD51AEC55F7257D7504144 /* Pods_socketio_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1205B5D7A6CAB3CAB5AA8A79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EFD45C89AC6FDBC4DF75B /* Pods-socketio-sdk.debug.xcconfig */,
+				440A0FB3A03E8AD58EA0CAD5 /* Pods-socketio-sdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48AF7BFE41738D3804B849B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC39CDF1F5E904A00BF222F /* SocketIO.framework */,
+				5411BA381D664D42CFEA016B /* Pods_socketio_sdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC46C34F1F6280B00075481D /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				ACC39CE21F5E922100BF222F /* SocketIOTest.swift */,
+				ACC39CE41F5E9BC800BF222F /* SocketIOTest-Event.swift */,
+				ACE82FC11F5FD786001E0A80 /* SocketIOHandles.swift */,
+			);
+			name = SocketIO;
+			sourceTree = "<group>";
+		};
+		AC46C3501F6280C50075481D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AC46C3511F62844B0075481D /* BDCollectionViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		ACC39CC11F5E8A7D00BF222F = {
+			isa = PBXGroup;
+			children = (
+				ACC39CCC1F5E8A7D00BF222F /* socketio-sdk */,
+				ACC39CCB1F5E8A7D00BF222F /* Products */,
+				1205B5D7A6CAB3CAB5AA8A79 /* Pods */,
+				48AF7BFE41738D3804B849B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC39CCB1F5E8A7D00BF222F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC39CCA1F5E8A7D00BF222F /* socketio-sdk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC39CCC1F5E8A7D00BF222F /* socketio-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				ACC39CE11F5E91CA00BF222F /* common */,
+				ACC39CCD1F5E8A7D00BF222F /* AppDelegate.swift */,
+				ACC39CCF1F5E8A7D00BF222F /* ViewController.swift */,
+				ACC39CD11F5E8A7D00BF222F /* Main.storyboard */,
+				ACC39CD41F5E8A7D00BF222F /* Assets.xcassets */,
+				ACC39CD61F5E8A7D00BF222F /* LaunchScreen.storyboard */,
+				ACC39CD91F5E8A7D00BF222F /* Info.plist */,
+			);
+			path = "socketio-sdk";
+			sourceTree = "<group>";
+		};
+		ACC39CE11F5E91CA00BF222F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				AC46C3501F6280C50075481D /* UI */,
+				AC46C34F1F6280B00075481D /* SocketIO */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC39CC91F5E8A7D00BF222F /* socketio-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC39CDC1F5E8A7D00BF222F /* Build configuration list for PBXNativeTarget "socketio-sdk" */;
+			buildPhases = (
+				045A0B25035682F9A99517E6 /* [CP] Check Pods Manifest.lock */,
+				ACC39CC61F5E8A7D00BF222F /* Sources */,
+				ACC39CC71F5E8A7D00BF222F /* Frameworks */,
+				ACC39CC81F5E8A7D00BF222F /* Resources */,
+				0CECB9502BD12C63C2B9D771 /* [CP] Embed Pods Frameworks */,
+				8DC0A858FF124723764FD3C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "socketio-sdk";
+			productName = "socketio-sdk";
+			productReference = ACC39CCA1F5E8A7D00BF222F /* socketio-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC39CC21F5E8A7D00BF222F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gaobo01;
+				TargetAttributes = {
+					ACC39CC91F5E8A7D00BF222F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AT5MZ2FPUS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACC39CC51F5E8A7D00BF222F /* Build configuration list for PBXProject "socketio-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC39CC11F5E8A7D00BF222F;
+			productRefGroup = ACC39CCB1F5E8A7D00BF222F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC39CC91F5E8A7D00BF222F /* socketio-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC39CC81F5E8A7D00BF222F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC39CD81F5E8A7D00BF222F /* LaunchScreen.storyboard in Resources */,
+				ACC39CD51F5E8A7D00BF222F /* Assets.xcassets in Resources */,
+				ACC39CD31F5E8A7D00BF222F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045A0B25035682F9A99517E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-socketio-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CECB9502BD12C63C2B9D771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-socketio-sdk/Pods-socketio-sdk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-socketio-sdk/Pods-socketio-sdk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC0A858FF124723764FD3C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-socketio-sdk/Pods-socketio-sdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC39CC61F5E8A7D00BF222F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC39CD01F5E8A7D00BF222F /* ViewController.swift in Sources */,
+				ACC39CCE1F5E8A7D00BF222F /* AppDelegate.swift in Sources */,
+				ACC39CE31F5E922100BF222F /* SocketIOTest.swift in Sources */,
+				ACE82FC21F5FD786001E0A80 /* SocketIOHandles.swift in Sources */,
+				AC46C3521F62844B0075481D /* BDCollectionViewController.swift in Sources */,
+				ACC39CE51F5E9BC800BF222F /* SocketIOTest-Event.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC39CD11F5E8A7D00BF222F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC39CD21F5E8A7D00BF222F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC39CD61F5E8A7D00BF222F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC39CD71F5E8A7D00BF222F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC39CDA1F5E8A7D00BF222F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC39CDB1F5E8A7D00BF222F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC39CDD1F5E8A7D00BF222F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4EFD45C89AC6FDBC4DF75B /* Pods-socketio-sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AT5MZ2FPUS;
+				INFOPLIST_FILE = "socketio-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.socketio-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ACC39CDE1F5E8A7D00BF222F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440A0FB3A03E8AD58EA0CAD5 /* Pods-socketio-sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AT5MZ2FPUS;
+				INFOPLIST_FILE = "socketio-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.socketio-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC39CC51F5E8A7D00BF222F /* Build configuration list for PBXProject "socketio-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC39CDA1F5E8A7D00BF222F /* Debug */,
+				ACC39CDB1F5E8A7D00BF222F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC39CDC1F5E8A7D00BF222F /* Build configuration list for PBXNativeTarget "socketio-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC39CDD1F5E8A7D00BF222F /* Debug */,
+				ACC39CDE1F5E8A7D00BF222F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC39CC21F5E8A7D00BF222F /* Project object */;
+}

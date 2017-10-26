@@ -1,0 +1,24 @@
+IOS中SocketIO使用
+
+一.IOS链接方式
+1.HTTP long-polling mode
+2.WebSockets mode
+
+二.socketIO建立链接
+1.创建SocketIOclient(URL和config);
+2.调用connect方法；
+3.注册事件；
+4.在connect事件中进行Auth验证；
+
+三.SocketIO经常遇到问题：
+1.服务端调用disConnect方法，客户端崩溃。
+解决方法：服务端先发送错误，10s后断开链接；
+存在缺点：目前线上还存在disconnect崩溃，未知原因。
+
+2.切花前后台，socketIO线程挂起，中间会出现丢消息现象；
+解决方法：进入后台，SocketIO断开；进入前台，SocketIO重新链接。
+存在缺点：频繁切换前后台，会出现Auth验证失败。
+
+3.chatmessage事件存在一次返回，有多条情况，需要注意一下；
+
+4.
