@@ -17,6 +17,11 @@
 其详细流程为：
 
 - EIO发送XHR握手，告诉服务器要开始长轮询,后段返回sid和upgrades字段；
+`97:0{"sid":"xxJv1zkrcQ4eK6B3AH_Z","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000}2:40
+`
+- 客户端和服务器通过ping-pong保持连接;
+ 
+[engine.io协议](https://github.com/socketio/engine.io-protocol)
 
 客户端事件：
 
