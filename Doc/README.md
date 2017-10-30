@@ -19,8 +19,21 @@
 - EIO发送XHR握手，告诉服务器要开始长轮询,后段返回sid和upgrades字段；
 `97:0{"sid":"xxJv1zkrcQ4eK6B3AH_Z","upgrades":["websocket"],"pingInterval":25000,"pingTimeout":60000}2:40
 `
-- 客户端和服务器通过ping-pong保持连接;
- 
+- 客户端和服务器通过ping-pong保持连接; 
+- 客户端通过message进行双方通讯
+- 客户端(服务器)通过disconnect方法断开链接
+
+EIO包类型为：
+
+ 协议类型				| 描述 	
+--------------------|---------------
+0						|open，打开链接   
+1						|close,关闭链接   
+2						|ping,客户端->服务器   
+3						|pong，服务器->客户端   
+4						|message,所有具体消息逻辑都在此
+5						|upgrade,断开变化通知
+6						|noop,
 [engine.io协议](https://github.com/socketio/engine.io-protocol)
 
 客户端事件：
